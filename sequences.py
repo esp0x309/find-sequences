@@ -1,10 +1,16 @@
-import string
+"""
+@author Sebastian Nawrot
+@email sebastian.nawrot@outlook.com
 
-# Find specific sequences of lower and upper characters in text.
-# Key is combinacion of lower and upper characters who are found in text.
-# Ex. we have text= "HEllo WOrld!" and key= "ZZz"
-#     The combination found is: HEl WOr
-# Notice! key: ZZz == AAa == BBb == CDe == JLi etc.
+Find specific sequences of lower and upper characters in text.
+Key is combinacion of lower and upper characters which are searched in the text.
+Ex. we have text= "HEllo WOrld!" and key= "ZZz"
+The combination found is: HEl WOr
+Notice! key: ZZz == AAa == BBb == CDe == JLi etc.
+"""
+
+
+import string
 
 i = j = k = 0  
 
